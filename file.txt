@@ -1,0 +1,11 @@
+{
+  "success":1,
+  "script":[
+  
+  
+        {"order":1, "voice":"https://api.joemcalister.com/ami/prototyping_materials/voice-intro-beta2.wav", "text":"", "duration":70.0, "isolate":"4", "preset":"", "resource":"https://raw.githubusercontent.com/joemcalister/alive/master/sign/verification.png"},
+        
+      {"order":0, "voice":"https://api.joemcalister.com/ami/prototyping_materials/voice-intro-beta2.wav", "text":"Hello, our name is Amy! Don’t be scared, we’re not real, we’re a figment of imagination. A collective of personalities, emotions and ideas, all combined into a single experience, a concept dreamt up by an artist. We’re here to guide you through your online presence. Through the hatred and violence, to the sadness and worry, the disappointment and disgust.", "duration":50.0, "isolate":"", "preset":"INTRO1", "resource":""}
+  
+  ]
+}

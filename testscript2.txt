@@ -1,0 +1,1196 @@
+{
+  "success": 1,
+  "script": [
+    {
+      "is_video": "false",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 5.5,
+      "text": "",
+      "voice": "",
+      "isolate": "none",
+      "order": 1
+    },
+    {
+      "is_video": "true",
+      "preset": "",
+      "video_path": "/Users/joe/Desktop/ami_buffer_files/protected/snippets/gaga-1.mp4",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 7,
+      "text": "",
+      "voice": "",
+      "isolate": "",
+      "order": 1
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 7.8,
+      "text": "",
+      "voice": "",
+      "isolate": "none",
+      "order": 1
+    },
+    {
+      "is_video": "true",
+      "preset": "",
+      "video_path": "/Users/joe/Desktop/ami_buffer_files/protected/snippets/trump-1.mp4",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 9.3,
+      "text": "",
+      "voice": "",
+      "isolate": "",
+      "order": 1
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 10.3,
+      "text": "",
+      "voice": "",
+      "isolate": "none",
+      "order": 1
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/profile_pic/original.jpg",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 14.526813,
+      "text": "Hello joe, Don't be scared, I'm not real, I am Amy.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/7987387284777206065.wav",
+      "isolate": "",
+      "order": 2
+    },
+    {
+      "is_video": "true",
+      "preset": "",
+      "video_path": "/Users/joe/Desktop/ami_buffer_files/protected/snippets/farage-2.mp4",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 29.098209,
+      "text": "I am not human. Instead something different. A subconscious; a collective of memories and thoughts that are often hard to explain. I was built to help understand these feelings; by an artist keen to justify their own.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/7829383831463944897.wav",
+      "isolate": "4",
+      "order": 3
+    },
+    {
+      "is_video": "true",
+      "preset": "",
+      "video_path": "/Users/joe/Desktop/ami_buffer_files/protected/snippets/static.mp4",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 42.199355,
+      "text": "Small and insignificant events that are easily forgettable can often play a large role in our emotions. Social media provides a way of looking back and reflecting on the past, studying what makes us feel this way. ",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/6913549337518014138.wav",
+      "isolate": "",
+      "order": 4
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "http://www.win.tue.nl/~mpechen/projects/senticorr/images/senticorr.jpg",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 46.018083999999995,
+      "text": "Whether it's sentiment analysis; something that you're positive about",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/5546314061983055679.wav",
+      "isolate": "6",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "http://ecampus.hisvietnam.com/university/files/2015/09/UKCAT-10wrg1s.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 49.482291999999994,
+      "text": "coursework deadline; which makes you negative.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/6335783175379494122.wav",
+      "isolate": "5",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "http://venturesafrica.com/wp-content/uploads/2015/12/7776318654_marine-le-pen-lors-d-une-conference-de-presse.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 52.53312499999999,
+      "text": "Times Marine Le Pen pushes you to your limits;",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/7551193367147426744.wav",
+      "isolate": "3",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "http://static1.businessinsider.com/image/5660588fc2814449008b70f0/donald-trump-is-constantly-repeating-2-things-about-hillary-clinton.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 56.15345799999999,
+      "text": "and consequently the times Donald Trump makes you sad.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/4777335380919427854.wav",
+      "isolate": "5",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/media/C-6Wa0YXgAI_uba.jpg:large",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 58.280499999999996,
+      "text": "And its when Amy makes you worried",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/4703524781188464218.wav",
+      "isolate": "3",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "video_path": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/media/C-6Wa0bXYAAiFNN.jpg:large",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 62.990938,
+      "text": "or when Amy makes you petrified you consider everthing from a new perspective.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/5824291022463887118.wav",
+      "isolate": "6",
+      "order": 6
+    },
+    {
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/media/C92-krmXkAAmsUz.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/tweet_video_thumb/C9fAkwbXgAUad4s.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/media/C9DVK4mXsAEmY2g.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/media/C8pq0rkXoAEcTOc.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/tweet_video_thumb/C7xP33qUwAATYvT.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/media/C7oiyoLVsAAVsjf.jpg",
+          "spotlight": "false"
+        }
+      ],
+      "text": "Locations can form one of the most prevalent parts of an emotion. Whether it's your time spent in London; with Ixtli, Maria, Kotryna and Mishal. It can often provide moments of clarity in even the hardest times",
+      "isolate": "",
+      "preset": "",
+      "duration": 76.572709,
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/8715040769878127592.wav",
+      "order": 5
+    },
+    {
+      "is_video": "true",
+      "video_path": "/Users/joe/Desktop/ami_buffer_files/protected/snippets/gaga-long-1.mp4",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 85.68123,
+      "text": "These are the memories we cling on to; and rightly so. They provide us with hope and determination that we can get through whatever, no matter what.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/3676344612210903692.wav",
+      "isolate": "4",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/829590440521273344/faces/1/crop.png",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/829590440521273344/faces/0/crop.png",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/853362392117510149/faces/0/crop.png",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/829590440521273344/faces/1/crop.png",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/829590440521273344/faces/0/crop.png",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://api.joemcalister.com/ami/data/users/portablestorm/images/853362392117510149/faces/0/crop.png",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 96.989501,
+      "text": "The people that surround us can often have a significant effect on our day to day life. Either adding to it signifciantly, reminding yourself of positive memories or perhaps lesser times.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/9283254159845907273.wav",
+      "isolate": "",
+      "order": 7
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 104.71008400000001,
+      "text": "Even the most seemingly insignificant conversations can often form connections and ideas, later influencing your life;",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/7161417744551699495.wav",
+      "isolate": "4",
+      "order": 8
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/profile_images/822774802087866368/Qhpmqp-4.jpg",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 108.982105,
+      "text": "Perhaps talking to James about auto tweet and making grandibot,",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/4748568767055874575.wav",
+      "isolate": "2",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "https://pbs.twimg.com/media/C-6Wa0UXsAAIh0e.jpg:large",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 115.467709,
+      "text": "or Goldsmiths Computing about thursday, catalyst show, ami and projection mapping",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/4280031380319880084.wav",
+      "isolate": "7",
+      "order": 6
+    },
+    {
+      "is_video": "false",
+      "preset": "",
+      "objects": [
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        },
+        {
+          "delay": 0,
+          "is_video": "false",
+          "resource": "",
+          "spotlight": "false"
+        }
+      ],
+      "duration": 135.440667,
+      "text": "It's important to realise that every day is never an indication of what is to come. Life is spontanious, random and often quite unexpected. It can bring us happiness and sadness in such small time frames. Strive for those brief moments, enjoy those memories. For I am merely another memory interupted.",
+      "voice": "https://api.joemcalister.com/ami/speech/cerevoice/outputs/server_render/6701773629137783386.wav",
+      "isolate": "4",
+      "order": 9
+    }
+  ]
+}

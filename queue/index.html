@@ -1,0 +1,338 @@
+
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Try A.M.I -- Joe McAlister</title>
+      <meta name="viewport" content="width=device-width" />
+      <meta name="author" content="Joe McAlister">
+      <meta name="description" content=" ">
+      <link rel="author" href="https://plus.google.com/u/0/110592369588276506172"/>
+      <meta property="og:title" content="A.M.I"/>
+      <meta property="og:type" content="article"/>
+      <!--<meta property="og:image" content="https://raw.githubusercontent.com/joemcalister/alive/master/sign/verification.png"/>-->
+      <meta property="og:description" content=" "/>
+      <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://joemcalister.com/apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://joemcalister.com/apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://joemcalister.com/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://joemcalister.com/apple-touch-icon-144x144.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://joemcalister.com/apple-touch-icon-120x120.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://joemcalister.com/apple-touch-icon-152x152.png" />
+      <link rel="icon" type="image/png" href="https://joemcalister.com/favicon-32x32.png" sizes="32x32" />
+      <link rel="icon" type="image/png" href="https://joemcalister.com/favicon-16x16.png" sizes="16x16" />
+      <meta name="application-name" content="Joe McAlister"/>
+      <meta name="msapplication-TileColor" content="#FFFFFF" />
+      <meta name="msapplication-TileImage" content="https://joemcalister.com/mstile-144x144.png" />
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600" rel="stylesheet">
+      <link href="https://joemcalister.com/css/core.css" rel="stylesheet">
+      <link rel='mask-icon' href='https://joemcalister.com/img/logo-joemcalister.svg' color='black'>
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <![endif]-->
+       
+       <style>
+           input {
+               width:95%;
+           }
+       </style>
+   </head>
+   <body>
+      <!-- LOGO -->
+      <a href="https://joe.ac/">
+         <div id="logo-slimline"></div>
+      </a>
+      <!-- MAIN TEXT -->
+      <article>
+          <img src="https://joe.ac/ami-active/hero.jpg" alt="A.M.I." />
+          
+          <h1>Current Queue</h1>
+          <p>Below is the current status of the queue, this page will automatically refresh. It may take a few moments for your current status to update.</p>
+          
+          <br>
+          <hr>
+          
+          
+          <div id="main_container">
+            <div id="active_users">
+                <h3>Currently experiencing A.M.I</h3>
+                <div id="active_table"></div>
+            </div>
+             
+            <br>
+            <hr>
+
+            <div id="queuing_users">
+                <h3>Queuing</h3>
+                <div id="queuing_table"></div>
+            </div>
+              
+            <br>
+            <hr>
+
+            <div id="pending_users">
+                <h3>Processing</h3>
+                <div id="pending_table"></div>
+            </div>
+        </div>
+          
+      </article>
+      <!-- TOOLBAR -->
+      <div id="toolbar">
+         <span id="logoText"><a href="/">Joe McAlister</a></span> - <a href="/me">About me</a> - <a href="/pgp">PGP Key</a> - <a href="https://github.com/joemcalister">Github</a>
+      </div>
+       
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+      <script>
+            (function(){
+                // repeating this entire function every 5 seconds
+                $.getJSON( "https://api.joemcalister.com/ami/queue/check/getBoard.php", function( data ) {
+                    
+                    // clear the board
+                    $('#pending_table').html("");
+                    $('#queuing_table').html("");
+                    $('#active_table').html("");
+                    
+                    // get payload from json
+                    var json = data["payload"];
+                    
+                    // get the users in the current state
+                    var inProgressUsers = [];
+                    var queueingUsers = [];
+                    var pendingUsers = [];
+                    $.each(json, function(index, value) {
+                       if (value.active == 1)
+                       {
+                           inProgressUsers.push(index);
+                       }else if (value.queuing == 1) {
+                           queueingUsers.push(index);
+                       }else if (value.constructing == 1) {
+                           pendingUsers.push(index);
+                       }
+                    });
+                    
+                    // create the states
+                    var states = {
+                        active: inProgressUsers,
+                        queuing: queueingUsers,
+                        pending: pendingUsers
+                    };
+                    
+                    // check number of states
+                    var count = 0;
+                    for (var k in states) {
+                        if (states.hasOwnProperty(k)) {
+                           ++count;
+                        }
+                    }
+                    
+                    // create tables for each state
+                    var globalPosition = 1;
+                    for(var name in states) {
+                        var value = states[name];
+                        
+                        // create our tables
+                        var $table = $('<table/>');
+
+                        // add the headers
+                        var $row = $('<tr/>');
+
+                        //create columns
+                        $('<th/>').text("Position").appendTo($row);
+                        $('<th/>').text("Name").appendTo($row);
+                        //$('<td/>').text("Time remaining").appendTo($row);
+
+                        $table.append($row);
+
+                        for (i=0; i<value.length; i++)
+                        {
+                            var data = json[value[i]];
+                            var $row = $('<tr/>');
+
+                            // maybe parse the current time
+                            /*
+                            if (name=="active")
+                            {
+                                var t = data.started_timestamp.split(/[- :]/);
+                                var d = new Date(Date.UTC(t[0], t[1]-2, t[2], t[3], t[4], t[5]));
+                                var currentdate = new Date(); 
+                                
+                                var dif = currentdate.getTime() - d.getTime();
+                                
+                                alert(dif);
+                            }
+                            */
+                            
+                            $('<td/>').text(globalPosition).appendTo($row);
+                            $('<td/>').text(data.name).appendTo($row);
+                            //$('<td/>').text(data.active).appendTo($row);
+
+                            // append
+                            $table.append($row);
+                            
+                            // update global position
+                            globalPosition++;
+                        }
+
+                        //append table to the div
+                        if (value.length > 0)
+                        {
+                            $('#'+name+'_table').append($table);
+                        }else {
+                            $('#'+name+'_table').html("Currently None");
+                        }
+                    }
+                });
+                
+                
+                // reload this table every 5 seconds
+                setTimeout(arguments.callee, 5000);
+            })();
+        </script>
+       
+       
+      <script language="javascript" type="text/javascript" src="https://joemcalister.com/js/p5.min.js"></script>
+      <script language="javascript" type="text/javascript" src="https://joemcalister.com/js/logo.min.js"></script>
+      <script src="https://joemcalister.com/js/main-slimline.min.js"></script>
+   </body>
+</html>
+
+<!--
+<html>
+    <head>
+        <title>AMI current queue</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+    <body> 
+        
+        <header></header>
+        <div id="main_container">
+            <div id="active_users">
+                <h2>Currently experiencing A.M.I</h2>
+                <div id="active_table"></div>
+            </div>
+
+            <div id="queuing_users">
+                <h2>Queuing</h2>
+                <div id="queuing_table"></div>
+            </div>
+
+            <div id="pending_users">
+                <h2>Processing</h2>
+                <div id="pending_table"></div>
+            </div>
+        </div>
+        
+        
+        <script>
+            (function(){
+                // repeating this entire function every 5 seconds
+                $.getJSON( "https://api.joemcalister.com/ami/queue/check/getBoard.php", function( data ) {
+                    
+                    // clear the board
+                    $('#pending_table').html("");
+                    $('#queuing_table').html("");
+                    $('#active_table').html("");
+                    
+                    // get payload from json
+                    var json = data["payload"];
+                    
+                    // get the users in the current state
+                    var inProgressUsers = [];
+                    var queueingUsers = [];
+                    var pendingUsers = [];
+                    $.each(json, function(index, value) {
+                       if (value.active == 1)
+                       {
+                           inProgressUsers.push(index);
+                       }else if (value.queuing == 1) {
+                           queueingUsers.push(index);
+                       }else if (value.constructing == 1) {
+                           pendingUsers.push(index);
+                       }
+                    });
+                    
+                    // create the states
+                    var states = {
+                        active: inProgressUsers,
+                        queuing: queueingUsers,
+                        pending: pendingUsers
+                    };
+                    
+                    // check number of states
+                    var count = 0;
+                    for (var k in states) {
+                        if (states.hasOwnProperty(k)) {
+                           ++count;
+                        }
+                    }
+                    
+                    // create tables for each state
+                    var globalPosition = 1;
+                    for(var name in states) {
+                        var value = states[name];
+                        
+                        // create our tables
+                        var $table = $('<table/>');
+
+                        // add the headers
+                        var $row = $('<tr/>');
+
+                        //create columns
+                        $('<th/>').text("Position").appendTo($row);
+                        $('<th/>').text("Name").appendTo($row);
+                        //$('<td/>').text("Time remaining").appendTo($row);
+
+                        $table.append($row);
+
+                        for (i=0; i<value.length; i++)
+                        {
+                            var data = json[value[i]];
+                            var $row = $('<tr/>');
+
+                            // maybe parse the current time
+                            /*
+                            if (name=="active")
+                            {
+                                var t = data.started_timestamp.split(/[- :]/);
+                                var d = new Date(Date.UTC(t[0], t[1]-2, t[2], t[3], t[4], t[5]));
+                                var currentdate = new Date(); 
+                                
+                                var dif = currentdate.getTime() - d.getTime();
+                                
+                                alert(dif);
+                            }
+                            */
+                            
+                            $('<td/>').text(globalPosition).appendTo($row);
+                            $('<td/>').text(data.name).appendTo($row);
+                            //$('<td/>').text(data.active).appendTo($row);
+
+                            // append
+                            $table.append($row);
+                            
+                            // update global position
+                            globalPosition++;
+                        }
+
+                        //append table to the div
+                        if (value.length > 0)
+                        {
+                            $('#'+name+'_table').append($table);
+                        }else {
+                            $('#'+name+'_table').html("Currently None");
+                        }
+                    }
+                });
+                
+                
+                // reload this table every 5 seconds
+                setTimeout(arguments.callee, 5000);
+            })();
+        </script>
+    </body>
+
+</html>
+-->
