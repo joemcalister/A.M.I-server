@@ -13,3 +13,6 @@ This is the backend of an art piece titled A.M.I. More information on the piece 
 * "file.txt" used for calibration and testing within the mapping system.
 * "start.sh" the core file, this file is called by the texting php system to start the creation of the payload for the user, takes two arguments, twitter username and first name.
 * "testscript2.txt" a test script pre-generated and used for demo purposes.
+
+### Sidenote
+Why are there so few commits? Embarrassingly I exposed two crucial files during a commit many months ago, these credentials are unable to be changed so therefore I had to restart the git repo without them. The old repos are available to be seen on request.
