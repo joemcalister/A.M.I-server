@@ -168,7 +168,7 @@ $conn->close();
 function sendMessage($m, $n)
 {
     // Your Account SID and Auth Token from twilio.com/console
-    $sid = 'REMOVED';  // something else SK15396d3d2d7760a32d26354dd0ebf979 secret 2XFuL9l90U8uOBmluNkFFBCCJrpct6CM
+    $sid = 'REMOVED'; 
     $token = 'REMOVED';
     $client = new Client($sid, $token);
 
